@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../css/style.css" rel="stylesheet">
+        <title>
+            Exercício Horizontal
+        </title>
+    </head>
+    <body>
+        Sabendo-se que hmax é a altura máxima que um objeto consegue atingir, e que V0 é a<br>
+        velocidade inicial do lançamento, construa um formulário em HTML para receber o valor<br>
+        da velocidade inicial e um script em Javascript que calcule a altura máxima (em metros)<br>
+        e o tempo total de subida do objeto (em segundos), considerando a aceleração da gravidade g = 10 m/s2,<br>
+        e de acordo com a velocidade inicial inserida pelo usuário.
+        <br><br>Informe a velocidade inicial:
+        <br>
+        <input id="velIncial" type="text">
+        <button onclick="calc()">Calcular</button>
+        <br><br>
+        <hr>
+        <br>
+        <div class="result">
+            <div>
+                hmax (Altura Máxima):
+                <span id="maxHeight" type="text"></span>
+            </div>
+            <div>
+                Tempo Total:
+                <span id="totalTime" type="text"></span>
+            </div>
+        </div>
+        <script src="../js/app.js"></script>
+    </body>
+</html>

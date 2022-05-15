@@ -1,0 +1,53 @@
+.header{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
+
+.tel_email{
+    border: 1px solid #D64F06;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    border: 3px solid #000000;
+}
+
+.coluna-33{
+    text-align: center;
+    width: 33%;
+    color:rgb(255, 255, 255);
+    background-color: #573B03;
+    display: flex;
+    flex-direction: column;
+}
+.resume-picture{
+    width: 120px;
+    height: 120px;
+    position:static;
+    align-self: center;
+    border-radius: 70px;
+    border: 2px solid #D64F06;
+}
+
+.coluna-66{
+    text-align: justify;
+    width: 33%;
+    color:black;
+    background-color: #F0B847;
+}
+
+.coluna-99{
+    text-align: center;
+    background-color: #573B03;
+    color: white;
+}
+
+.info{
+    color: rgb(233, 233, 88);
+}
+
+.contato{
+    color: yellow;
+}

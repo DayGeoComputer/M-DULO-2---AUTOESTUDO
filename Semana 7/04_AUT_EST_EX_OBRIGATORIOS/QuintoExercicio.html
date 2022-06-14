@@ -1,0 +1,50 @@
+<html>
+    <title>
+        Crie uma página web na qual o usuário informe a quantidade de alunos e a nota de cada aluno na prova e no trabalho.
+        Quando o usuário finalizar o fornecimento de todas as informações e solicitar o cálculo, mostre:
+        
+        - a média de cada aluno, calculada considerando peso 2 para a prova e 3 para o trabalho;
+        - a média geral, considerando todos os alunos;
+        - a média aritméticas das notas de prova;
+        - a média aritméticas das notas de trabalho;
+        - a menor e a maior notas de prova;
+        - a menor e a maior notas de trabalho.
+        Obs: note que a quantidade de campos para inserção das notas de cada aluno depende da quantidade de alunos informada.
+    </title>
+    <script src = QuintoExercicio.js></script>
+    <head>
+
+    </head>
+    <body>
+        <h3>Quantidade de Alunos na sala</h3>
+        <input type="Number" id="numerodealunos" placeholder="Lista dos Alunos"><br><br>
+        <h4 id="alunos"></h4>
+        
+        <h3>Notas dos Alunos separada por vírgulas:</h3>
+        <input type="text" id="notaProva" placeholder="Notas do Trabalho">
+        <input type="text" id="notaTrabalho" placeholder="Nota da prova"><br><br>
+      
+        <input type="button" id="notaFinal" value="Calcular Notas" onclick="CalcularNotas()"/><br><br>
+        
+        Média Geral:
+        <div id="mediaGeral"></div><br>
+        
+        Média Trabalhos:
+        <div id="mediaTrabalhos"></div><br>
+        
+        Média Provas:
+        <div id="mediaProvas"></div><br>
+        
+        Menor Nota da Provas:
+        <div id="menorProva"></div><br>
+        
+        Maior Nota da Provas:
+        <div id="maiorProva"></div><br>
+        
+        Menor Nota do Trabalho:
+        <div id="menorTrabalho"></div><br>
+        
+        Maior Nota do Trabalho:
+        <div id="maiorTrabalho"></div>
+    </body>
+</html>

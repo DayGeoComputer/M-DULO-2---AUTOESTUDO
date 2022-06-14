@@ -8,12 +8,3 @@ button.addEventListener('click',() => {
 popup.addEventListener('click', () =>{
     popup.style.display = 'none'
 })
-
-function tempo (req,res){
-    const dynamicDate = new Date();
-    res.json({
-        date: dynamicDate.toGMTString()
-    })
-}
-
-const { response } = require("express")

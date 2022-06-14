@@ -1,5 +1,4 @@
 var quantidade = 0
-var resultado
 var valor = 0
 var precoDaUnidade = 5
 

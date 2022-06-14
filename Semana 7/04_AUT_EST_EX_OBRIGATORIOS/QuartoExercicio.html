@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Crie uma página web que permita ao usuário informar a quantidade de pessoas (número inteiro inteiro)
+        e o período (Noturno ou Diurno) e, quando o usuário indicar que deseja que o cálculo seja realizado
+        (pressionar um botão), mostre o total da compra de acordo com as condições abaixo:
+        - Se vôo diurno, 200 por pessoa. Se mais do que 50 pessoas, desconto de 40% por pessoa.
+        - Se vôo noturno, 100 por pessoa. Se mais do que 50 pessoas, desconto de 20% por pessoa.</title>
+        <script src = "QuartoExercicio.js"></script>
+    </head>
+    <body>
+        <form>
+            <input type="number" id="valor"/>
+            <input type="radio" id="age1" name="turno" value="Diurno">
+            <label for="age1">Diurno</label>
+            <input type="radio" id="age2" name="turno" value="Noturno">
+            <label for="age2">Noturno</label><br/><br/>
+            <input type="button" value="Total da Compra" onclick="valortotal()"/><br><br>
+            <h2>Valor Total da Compra:</h2>
+            <h3 id="Valor"></h3>
+          </form>
+    </body>
+</html>

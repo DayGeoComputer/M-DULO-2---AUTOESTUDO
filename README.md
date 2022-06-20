@@ -12,9 +12,9 @@ Minhas entregas estão definidas aqui:
 
 <a href = "https://github.com/DayllanAlho/2022M2-T4-Entregaveis/tree/main/Semana%206/03_AUT_EST_ENTREGA/Curr%C3%ADculo%20-%20Db/frontend"> Semana 6 - Etapa 5 do Currículo com criação do Banco de Dados e uma chamada get<a>
 
-<a href= "https://github.com/DayllanAlho/2022M2-T4-Entregaveis/tree/main/Semana%207/03_AUT_EST_ENTREGA/Curr%C3%ADculo%20-%20CRUD/frontend"> 08/06/2022 - Semana 7 - Etapa 6 do Currículo com CRUD no Banco de Dados</a>
+<a href= "https://github.com/DayllanAlho/2022M2-T4-Entregaveis/tree/main/Semana%207/03_AUT_EST_ENTREGA/Curr%C3%ADculo%20-%20CRUD/frontend">Semana 7 - Etapa 6 do Currículo com CRUD no Banco de Dados</a>
 
-<a href = ""> <a>
+<a href = "https://github.com/DayllanAlho/2022M2-T4-Entregaveis/tree/main/Semana%209/04_AUT_EST_EX_OBRIGATORIOS/EXERCICIO%20SEMANA%209"> Semana 9 - Exercício de Fixação com js.<a>
 
 ## Obrigatórios
 <a href="https://github.com/Intelihub/Template_Aluno/blob/main/03_EX_OBRIGATORIOS/Coloque%20aqui%20entregas%20de%20exerc%C3%ADcios%20obrigat%C3%B3rios.rtf"> 19/04/2022 - Entrega 1 </a>

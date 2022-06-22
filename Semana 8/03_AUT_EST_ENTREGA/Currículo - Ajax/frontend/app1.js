@@ -9,8 +9,6 @@ popup.addEventListener('click', () =>{
     popup.style.display = 'none'
 })}
 
-const { response } = require("express")
-var getDBResDiv = "#getDB"
 
 function TestGETDB(){
     console.log("teste");
@@ -24,3 +22,28 @@ function TestGETDB(){
     $(getDBResDiv).append("<br /><br />* Seleção do atributo 'title' do primeiro usuario:<br />" + resposta[0].title);
     console.log(xhttp.responseText);
 }
+
+function fazerGet() {
+  var resposta = []
+    $.ajax({
+      url: "http://127.0.0.1:3040/projetos",
+      type: 'GET',
+      async: false,
+      success: data => {
+        data.forEach(element => {
+          resposta.push(element)
+        });
+      }
+    });
+    return resposta
+  }
+
+  function mostrar(){
+    console.log("clicado")
+    var registros = fazerGet()
+    registros.forEach(element => {
+      document.getElementById("projetos").innerHTML += `
+      <h3>${element['Título']}</h3>`
+
+    })
+  }

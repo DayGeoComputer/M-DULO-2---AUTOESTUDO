@@ -1,5 +1,5 @@
 # Dayllan de Souza Alho
-Minhas entregas estão definidas aqui:
+As entregas foram desenvolvidas ao longo das semanas e estão organizadas através das pastas, para acessá-las basta clicar nos links abaixo:
 ## Entregáveis - Currículo
 
 <a href = "https://github.com/DayllanAlho/2022M2-T4-Entregaveis/tree/main/Semana%202/03_AUT_EST_ENTREGA"> Semana 2 - Etapa 1 do Currículo com Html<a>
